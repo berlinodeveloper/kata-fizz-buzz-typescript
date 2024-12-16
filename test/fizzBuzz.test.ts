@@ -15,4 +15,10 @@ describe("Fizz Buzz Test Suite", function (): void {
 
     expect(result).toBe("4");
   });
+
+  it("prints Fizz for numbers multiple of 3", (): void => {
+    let result = FizzBuzzClass.printFizzBuzzOrNumber(3);
+
+    expect(result).toBe("Fizz");
+  });
 });
