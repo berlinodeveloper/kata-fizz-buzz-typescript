@@ -1,7 +1,7 @@
 class FizzBuzz {
-    handle(): boolean {
-        return true;
-    }
+  printFizzBuzzOrNumber(): string {
+    return "";
+  }
 }
 
 export default FizzBuzz;

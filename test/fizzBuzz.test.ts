@@ -3,9 +3,9 @@ const FizzBuzzClass = new FizzBuzz();
 
 describe("Fizz Buzz Test Suite", function (): void {
   it("sample test", (): void => {
-    var result: boolean = FizzBuzzClass.handle();
+    const result = FizzBuzzClass.printFizzBuzzOrNumber();
 
-    var expected = true;
+    const expected = "";
     expect(result).toBe(expected);
   });
 });
