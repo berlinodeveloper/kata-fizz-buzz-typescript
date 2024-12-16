@@ -29,4 +29,10 @@ describe("Fizz Buzz Test Suite", function (): void {
 
     expect(result).toBe("Fizz");
   });
+
+  it("prints Buzz for numbers multiple of 5", (): void => {
+    let result = FizzBuzzClass.printFizzBuzzOrNumber(5);
+
+    expect(result).toBe("Buzz");
+  });
 });
