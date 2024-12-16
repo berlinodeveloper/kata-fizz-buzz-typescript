@@ -10,5 +10,9 @@ describe("Fizz Buzz Test Suite", function (): void {
     result = FizzBuzzClass.printFizzBuzzOrNumber(2);
 
     expect(result).toBe("2");
+
+    result = FizzBuzzClass.printFizzBuzzOrNumber(4);
+
+    expect(result).toBe("4");
   });
 });
