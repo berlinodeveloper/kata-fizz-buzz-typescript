@@ -34,5 +34,9 @@ describe("Fizz Buzz Test Suite", function (): void {
     let result = FizzBuzzClass.printFizzBuzzOrNumber(5);
 
     expect(result).toBe("Buzz");
+
+    result = FizzBuzzClass.printFizzBuzzOrNumber(10);
+
+    expect(result).toBe("Buzz");
   });
 });
