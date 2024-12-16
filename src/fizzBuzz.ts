@@ -1,6 +1,6 @@
 class FizzBuzz {
-  printFizzBuzzOrNumber(): string {
-    return "1";
+  printFizzBuzzOrNumber(numberValue: number): string {
+    return numberValue.toString();
   }
 }
 
