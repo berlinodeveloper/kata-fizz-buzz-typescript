@@ -3,10 +3,12 @@ const FizzBuzzClass = new FizzBuzz();
 
 describe("Fizz Buzz Test Suite", function (): void {
   it("prints number", (): void => {
-    const numberValue: number = 1;
-    const result = FizzBuzzClass.printFizzBuzzOrNumber(numberValue);
+    let result = FizzBuzzClass.printFizzBuzzOrNumber(1);
 
-    const expected: string = numberValue.toString();
-    expect(result).toBe(expected);
+    expect(result).toBe("1");
+
+    result = FizzBuzzClass.printFizzBuzzOrNumber(2);
+
+    expect(result).toBe("2");
   });
 });
