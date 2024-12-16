@@ -1,6 +1,6 @@
 class FizzBuzz {
   printFizzBuzzOrNumber(): string {
-    return "";
+    return "1";
   }
 }
 
